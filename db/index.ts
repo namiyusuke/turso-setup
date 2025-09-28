@@ -8,6 +8,6 @@ export const db = drizzle({
     authToken: process.env.TURSO_AUTH_TOKEN!,
   },
   schema: {
-    // ...authSchema,
+    ...authSchema,
   },
 });
